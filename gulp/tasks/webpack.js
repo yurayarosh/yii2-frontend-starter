@@ -2,7 +2,6 @@ import webpack from 'webpack'
 import log from 'fancy-log'
 import PluginError from 'plugin-error'
 import notify from 'gulp-notify'
-import server from './server'
 import { env } from '../config'
 
 const webpackConfig = require('../../webpack.config').createConfig(env)
@@ -31,7 +30,6 @@ const handler = (err, stats, cb) => {
     })
   )
 
-  server.server.reload()
   if (typeof cb === 'function') cb()
 }
 
