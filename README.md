@@ -1,6 +1,6 @@
 ## Frontend starter for yii2
 
-Frontend gulp + webpack starter for using in yuii2 projects.
+Frontend gulp + webpack starter for using in yii2 projects.
 
 ## How to use
 
