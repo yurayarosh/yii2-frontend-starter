@@ -1,4 +1,4 @@
-## Frontend starter for yuii2
+## Frontend starter for yii2
 
 Frontend gulp + webpack starter for using in yuii2 projects.
 
